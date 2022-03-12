@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root{
+	--blue: #008aff;
+	--navy-blue: #102556;
+	--red: #f05766;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	b0x-sizing: border-box;
+}
+img{
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+	/*! background-color: aliceblue; */
+	padding: 10px 0;
+	border-bottom: 2px solid;
+	color: #a0b6cd70;
+}
+.container{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.logo{
+	flex-basis: 20%;
+	max-width: 20%;
+}
+.logo img{}
+nav{
+	flex-basis: 80%;
+	max-width: 80%;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+	}
+nav ul li{}
+nav ul li a{display: block;color: #23608e;font-size: 18px;text-decoration: none;padding: 10px 30px;font-weight: 500;text-transform: capitalize;}
+nav ul li a:hover{
+	color: #20144d;
+}
+
+
+
+
+.banner-section{padding: 50px 0;}
+.container-sm{max-width: 957px;margin: auto;}
+.banner{text-align: center;}
+.banner h1{font-size: 60px;font-weight: 900;color: #20144d;line-height: 1.2;}
+.banner h1 strong{color: #23608d;display: block;}
+.banner p{color: #20144d;margin: 20px auto;max-width: 800px;}
+.banner img{}
+
+
+
+.feature-section{padding: 30px 0;}
+.col-2{flex-basis: 45%;max-width: 50%;padding: 20px;}
+.feature-section h2{font-size: 60px;font-weight: 900;font-family: shippori antique b1;color: red;line-height: 1.2;}
+.feature-section p{color: #20144d;}
+.feature-section h1{font-size: 60px;font-weight: 900;font-family: shippori antique b1;color: #20144d;line-height: 1.2;}
+
+.text-right{
+	text-align: right;
+}
+
+.service-section{}
+.col-3{flex-basis: 30.33%;max-width: 33.33%;padding: 14px;}
+.service{}
+.color1{}
+.color2{}
+.color3{}
+.service img{}
+.service h3{font-size: 28px;margin: 10px 0;}
+.service p{font-size: 18px;}
+
+
+footer{background-color: #377dff;padding: 30px 0;}
+.copyright{text-align: center;}
+.copyright p{color: #f5deb3b0;font-size: 15px;}
+.copyright p a{display: inline-block;color: wheat;font-weight: 900;}
